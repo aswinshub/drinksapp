@@ -123,7 +123,7 @@ const Drinks = () => {
 <img
               src="src/assets/lime.png"
               alt="drink"
-              className="absolute top-[20px] left-[30px] size-20 sm:top-[-100px] sm:size-72 sm:left-[-100px]  "
+              className="absolute top-[20px] left-[30px] size-20 sm:top-[-150px] sm:size-60 sm:left-[-80px]  "
             />
 
 
@@ -131,7 +131,7 @@ const Drinks = () => {
 <img
               src="src/assets/lime 2.png"
               alt="drink"
-              className="absolute top-[20px] right-[30px] size-20 sm:top-[-100px] sm:size-72 sm:right-[-100px]  "
+              className="absolute top-[20px] right-[30px] size-20 sm:top-[350px] sm:size-60 sm:right-[-100px]  "
             />
 {/* 
             <img
