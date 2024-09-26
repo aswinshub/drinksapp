@@ -23,8 +23,8 @@ const Drinks = () => {
   }, []);
 
   return (
-    <div>
-      <Navbar />
+    <div className="relative ">
+      <Navbar /> 
       <div
         className="w-full h-[311px] bg-cover bg-center"
         style={{ backgroundImage: 'url("/src/assets/banner.png")' }}
@@ -81,14 +81,18 @@ const Drinks = () => {
             <img
               src="src/assets/drink.png"
               alt="drink"
-              className="absolute top-[-100px] left-[-100px]  object-cover"
-            />
-            <img
-              src="src/assets/cocktail.png"
-              alt="drink"
-              className="absolute top-[-80px] right-[-100px] object-cover"
+              className="absolute top-[50px] left-[30px] size-20 sm:top-[-100px] sm:size-44 sm:left-[-100px]  "
             />
 
+
+<img
+              src="src/assets/cocktail.png"
+              alt="drink"
+              className="absolute top-[50px] right-[30px] size-20 sm:top-[-100px] sm:size-44 sm:right-[-100px] "
+            />
+
+
+          
             <h1
               className="mb-2 mt-8 text-3xl md:text-4xl font-bold dark:text-white font-oswald text-center tracking-widest"
               style={{ textShadow: "4px 2px 4px #800020" }}
@@ -114,17 +118,27 @@ const Drinks = () => {
             </div>
           </div>
           <div className="relative w-full max-w-[1140px] bg-transparent border border-white p-5">
-            <img
+         
+
+<img
               src="src/assets/lime.png"
               alt="drink"
-              className="absolute top-[-200px] left-[-50px]  object-cover"
+              className="absolute top-[20px] left-[30px] size-20 sm:top-[-100px] sm:size-72 sm:left-[-100px]  "
             />
 
+
+
+<img
+              src="src/assets/lime 2.png"
+              alt="drink"
+              className="absolute top-[20px] right-[30px] size-20 sm:top-[-100px] sm:size-72 sm:right-[-100px]  "
+            />
+{/* 
             <img
               src="src/assets/lime 2.png"
               alt="drink"
               className="absolute bottom-[-20px] right-[-50px]  object-cover"
-            />
+            /> */}
             <h1
               className="mb-2 mt-8 text-3xl md:text-4xl font-bold dark:text-white font-oswald text-center tracking-widest"
               style={{ textShadow: "4px 2px 4px #800020" }}
