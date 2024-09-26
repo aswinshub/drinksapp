@@ -159,38 +159,44 @@ const Drinks = () => {
             </div>
           </div>
 
-          <div className="relative w-full max-w-[1140px] bg-transparent border border-white p-5">
-            <img
-              src="src/assets/hookah.png"
-              alt="Hookah Logo"
-              className="h-[100px] w-[100px]"
-            />
-            <h1
-              className="mb-2 mt-8 text-3xl md:text-4xl font-bold dark:text-white font-oswald text-center tracking-widest"
-              style={{ textShadow: "4px 2px 4px #800020" }}
-            >
-               HOOKAH FLAVORS
-            </h1>
-            <div className="divider">Default</div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              {drinks.map((drink) => (
-                <div
-                  key={drink._id}
-                  className="p-4 hover:shadow-lg transition-shadow duration-200"
-                >
-                  <h2 className="text-xl md:text-2xl font-semibold text-white font-oswald">
-                    {drink.name}{" "}
-                    <span className="float-right">{`$${drink.price}`}</span>
-                  </h2>
-                  <p className="text-gray-600 font-kelly-slab">
-                    {drink.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
+          <div className="w-full max-w-[1140px] bg-transparent border border-white p-5">
+  <div className="flex flex-col items-center">
+    <img
+      src="src/assets/hookah.png"
+      alt="Hookah Logo"
+      className="h-[100px] w-[100px]"
+    />
+  </div>
 
-          <button className="bg-black bg-blue-500 hover:bg-transparent text-white font-semibold py-3 px-4 border border-blue-500">
+  <h1
+    className="mb-2 mt-8 text-3xl md:text-4xl font-bold dark:text-white font-oswald text-center tracking-widest"
+    style={{ textShadow: "4px 2px 4px #800020" }}
+  >
+    HOOKAH FLAVORS
+  </h1>
+
+  <div className="divider">Default</div>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+    {drinks.map((drink) => (
+      <div
+        key={drink._id}
+        className="p-4 hover:shadow-lg transition-shadow duration-200"
+      >
+        <h2 className="text-xl md:text-2xl font-semibold text-white font-oswald">
+          {drink.name}{" "}
+          <span className="float-right">{`$${drink.price}`}</span>
+        </h2>
+        <p className="text-gray-600 font-kelly-slab">
+          {drink.description}
+        </p>
+      </div>
+    ))}
+  </div>
+</div>
+
+
+          <button className=" bg-blue-500 hover:bg-transparent text-white font-semibold py-3 px-4 border border-blue-500">
             ORDER ONLINE
           </button>
 
