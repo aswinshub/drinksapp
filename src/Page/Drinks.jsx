@@ -131,19 +131,14 @@ const Drinks = () => {
 <img
               src="src/assets/lime 2.png"
               alt="drink"
-              className="absolute top-[20px] right-[30px] size-20 sm:top-[350px] sm:size-60 sm:right-[-100px]  "
+              className="absolute top-[20px] right-[30px] size-20 sm:top-[350px] sm:size-60 sm:right-[-100px] "
             />
-{/* 
-            <img
-              src="src/assets/lime 2.png"
-              alt="drink"
-              className="absolute bottom-[-20px] right-[-50px]  object-cover"
-            /> */}
+
             <h1
               className="mb-2 mt-8 text-3xl md:text-4xl font-bold dark:text-white font-oswald text-center tracking-widest"
               style={{ textShadow: "4px 2px 4px #800020" }}
             >
-              DRINKS
+              BRUNCH COCKTAILS
             </h1>
             <div className="divider">Default</div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -174,7 +169,7 @@ const Drinks = () => {
               className="mb-2 mt-8 text-3xl md:text-4xl font-bold dark:text-white font-oswald text-center tracking-widest"
               style={{ textShadow: "4px 2px 4px #800020" }}
             >
-              DRINKS
+               HOOKAH FLAVORS
             </h1>
             <div className="divider">Default</div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -199,7 +194,7 @@ const Drinks = () => {
             ORDER ONLINE
           </button>
 
-          {/* section---------------- */}
+          {/* sectionnnnn---------------- */}
 
           <div className="bg-[#C5A059]  	 w-full max-w-[1140px]  font-kelly-slab text-white flex justify-center items-center flex-col md:flex-row">
             <div className="flex-1 px-4 py-2">
@@ -224,9 +219,9 @@ const Drinks = () => {
             </div>
           </div>
 
-          {/* end section-------------    */}
+          {/* end of section-------------    */}
 
-          {/* Contact section -------------- */}
+          {/* contact sectionnn start -------------- */}
 
           <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 pb-10">
             <div className="border w-full h-[134px] rounded-md border-gray-50 p-5 mx-auto">
@@ -257,7 +252,7 @@ const Drinks = () => {
               </div>
             </div>
 
-            {/* ------------------------- */}
+            {/* -----------end-------------- */}
 
             <div className="relative w-full h-[134px] border rounded-md border-gray-50">
               <img
